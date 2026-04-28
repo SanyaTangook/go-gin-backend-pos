@@ -1,0 +1,21 @@
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+.vscode
+*.swp
+
+# Build artifacts
+pos-server
+*.exe
+
+# Environment files (we'll copy .env separately or use args)
+.env
+
+# Documentation
+README.md
+
+# OS
+.DS_Store

@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - DB_HOST=postgresql-pos.9sanya.dpdns.org
+      - DB_PORT=5432
+      - DB_USER=demo1
+      - DB_PASSWORD=WQmpIKZHq-pJrV7iQ6fj
+      - DB_NAME=pos
+      - DB_SSLMODE=disable
+      - APP_HOST=0.0.0.0
+      - APP_PORT=8080
